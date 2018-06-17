@@ -1,0 +1,51 @@
+uuid: 9df784ee-2332-4a56-a012-ddbff7829654
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.t_shirt
+    - core.entity_view_mode.commerce_product.featured_products
+    - field.field.commerce_product.t_shirt.body
+    - field.field.commerce_product.t_shirt.field_image
+    - field.field.commerce_product.t_shirt.field_type_of_clothing
+    - field.field.commerce_product.t_shirt.stores
+    - field.field.commerce_product.t_shirt.variations
+    - image.style.flexslider_thumbnail
+  module:
+    - image
+    - text
+id: commerce_product.t_shirt.featured_products
+targetEntityType: commerce_product
+bundle: t_shirt
+mode: featured_products
+content:
+  body:
+    type: text_default
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: flexslider_thumbnail
+      image_link: content
+    third_party_settings: {  }
+  title:
+    label: hidden
+    type: string
+    weight: 1
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_type_of_clothing: true
+  stores: true
+  uid: true
+  variations: true

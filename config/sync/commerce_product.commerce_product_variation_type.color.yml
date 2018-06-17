@@ -1,0 +1,10 @@
+uuid: 2a37301d-c316-4dca-985d-6efe81963538
+langcode: en
+status: true
+dependencies: {  }
+id: color
+label: Color
+orderItemType: default
+generateTitle: true
+traits: {  }
+locked: false

@@ -1,0 +1,11 @@
+uuid: 64a02f7c-a647-43e3-bb42-6e7d965e84d2
+langcode: en
+status: true
+dependencies: {  }
+id: hat
+label: Hat
+description: "what is a hat\r\n"
+variationType: size
+injectVariationFields: true
+traits: {  }
+locked: false

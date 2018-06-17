@@ -1,0 +1,25 @@
+uuid: 54c4a719-b857-4d3b-869f-854a6a48a598
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: featured_categories
+label: 'Featured categories'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: taxonomy_term
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      clothes: clothes
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 1
+  max_size: 4
+  act_as_queue: false
+  reverse_in_admin: false

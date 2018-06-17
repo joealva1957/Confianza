@@ -1,0 +1,10 @@
+uuid: 506e214b-2374-4a5b-8b96-fc42a3ea93ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.product_slide
+label: 'Product Slide'
+targetEntityType: commerce_product
+cache: true

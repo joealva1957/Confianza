@@ -1,0 +1,25 @@
+uuid: 6a979441-6e8c-49d1-a3c2-7e4a7bf0f36b
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: featured_products
+label: 'Featured products'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: commerce_product
+  handler: 'default:commerce_product'
+  handler_settings:
+    target_bundles:
+      t_shirt: t_shirt
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 1
+  max_size: 4
+  act_as_queue: false
+  reverse_in_admin: false

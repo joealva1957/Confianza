@@ -1,0 +1,47 @@
+uuid: f96cc8e7-575f-4e46-9ece-2c656cc9799f
+langcode: en
+status: true
+dependencies: {  }
+id: carousel_product_
+label: 'Carousel product '
+options:
+  animation: slide
+  animationSpeed: 600
+  direction: horizontal
+  slideshow: true
+  easing: swing
+  smoothHeight: true
+  reverse: false
+  slideshowSpeed: 3999
+  animationLoop: true
+  randomize: false
+  startAt: 0
+  itemWidth: 210
+  itemMargin: 0
+  minItems: 1
+  maxItems: 2
+  move: 1
+  directionNav: true
+  controlNav: '1'
+  thumbCaptions: false
+  thumbCaptionsBoth: false
+  keyboard: true
+  multipleKeyboard: false
+  mousewheel: false
+  touch: true
+  prevText: Previous
+  nextText: Next
+  namespace: flex-
+  selector: '.slides > li'
+  sync: ''
+  asNavFor: ''
+  initDelay: 0
+  useCSS: true
+  video: false
+  pausePlay: false
+  pauseText: Pause
+  playText: Play
+  pauseOnAction: true
+  pauseOnHover: false
+  controlsContainer: ''
+  manualControls: ''

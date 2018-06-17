@@ -1,0 +1,22 @@
+uuid: 44e18de0-a393-40a1-8eea-946c300d00aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - STARTERKIT
+_core:
+  default_config_hash: xM5hXJUBl55T980ZF-VJpsEzvBnuzXAe1u7gGFqaE1I
+id: STARTERKIT_powered
+theme: STARTERKIT
+region: footer
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

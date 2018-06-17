@@ -1,0 +1,80 @@
+uuid: 9748330d-4333-4661-a42f-b021a8992c94
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.home
+    - views.view.duplicate_of_featured_products_carousel
+    - views.view.duplicate_of_featured_products_slide
+    - views.view.featured_categories
+  content:
+    - 'block_content:basic:ffefd2bf-c154-4f60-be46-f97842b9a061'
+  module:
+    - block_content
+    - panels
+    - views
+id: home-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    df91d321-ef24-4b83-9dac-08a663be53d7:
+      id: 'views_block:featured_categories-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 2
+      uuid: df91d321-ef24-4b83-9dac-08a663be53d7
+      context_mapping: {  }
+    e8ef1337-8a61-4cc7-adec-a1d1fa63ae6b:
+      id: 'views_block:duplicate_of_featured_products_slide-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: -1
+      uuid: e8ef1337-8a61-4cc7-adec-a1d1fa63ae6b
+      context_mapping: {  }
+    1da96b14-fdc6-49bf-987d-4d9c4a951f79:
+      id: 'views_block:duplicate_of_featured_products_carousel-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 1da96b14-fdc6-49bf-987d-4d9c4a951f79
+      context_mapping: {  }
+    7aef2c50-9cda-4e3f-b012-f85be97a4422:
+      id: 'block_content:ffefd2bf-c154-4f60-be46-f97842b9a061'
+      label: 'About Us'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: 1
+      uuid: 7aef2c50-9cda-4e3f-b012-f85be97a4422
+      context_mapping: {  }
+  id: panels_variant
+  uuid: c8c8faab-201c-4f0b-bd54-c04bb85f316d
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: home-panels_variant-0
+  builder: standard
+page: home
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

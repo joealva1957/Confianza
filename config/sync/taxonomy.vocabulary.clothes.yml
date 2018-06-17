@@ -1,0 +1,9 @@
+uuid: 81825f6c-fa89-4702-8125-b740ebabd67f
+langcode: en
+status: true
+dependencies: {  }
+name: Clothes
+vid: clothes
+description: 'A list of terms to categorize clothes'
+hierarchy: 0
+weight: 0

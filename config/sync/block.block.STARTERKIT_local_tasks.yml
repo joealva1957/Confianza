@@ -1,0 +1,22 @@
+uuid: c9c6b8d0-d564-4844-b93b-3cd319753f0a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - STARTERKIT
+_core:
+  default_config_hash: 3y6yQA5aTZcNHcCsDumVPU1d-cvl6ATa1mDiPti231o
+id: STARTERKIT_local_tasks
+theme: STARTERKIT
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

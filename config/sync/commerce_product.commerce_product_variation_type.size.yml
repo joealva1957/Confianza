@@ -1,0 +1,10 @@
+uuid: 53847267-6a54-4054-9616-77306f2b6b92
+langcode: en
+status: true
+dependencies: {  }
+id: size
+label: Size
+orderItemType: default
+generateTitle: true
+traits: {  }
+locked: false

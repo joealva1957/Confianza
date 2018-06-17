@@ -1,0 +1,22 @@
+uuid: c4dd8b9c-a21f-4c8e-a0be-1dd3351148f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zen
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: zen_messages
+theme: zen
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

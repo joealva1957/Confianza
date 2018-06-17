@@ -1,0 +1,47 @@
+uuid: d596dde5-7f2e-4e58-bf31-0bd3c5f186a4
+langcode: en
+status: true
+dependencies: {  }
+id: slide_product
+label: 'Slide product'
+options:
+  animation: slide
+  animationSpeed: 600
+  direction: horizontal
+  slideshow: true
+  easing: swing
+  smoothHeight: true
+  reverse: false
+  slideshowSpeed: 4000
+  animationLoop: true
+  randomize: false
+  startAt: 0
+  itemWidth: 0
+  itemMargin: 0
+  minItems: 1
+  maxItems: 0
+  move: 1
+  directionNav: true
+  controlNav: '1'
+  thumbCaptions: false
+  thumbCaptionsBoth: false
+  keyboard: true
+  multipleKeyboard: false
+  mousewheel: false
+  touch: true
+  prevText: Previous
+  nextText: Next
+  namespace: flex-
+  selector: '.slides > li'
+  sync: ''
+  asNavFor: ''
+  initDelay: 0
+  useCSS: true
+  video: false
+  pausePlay: false
+  pauseText: Pause
+  playText: Play
+  pauseOnAction: true
+  pauseOnHover: false
+  controlsContainer: ''
+  manualControls: ''

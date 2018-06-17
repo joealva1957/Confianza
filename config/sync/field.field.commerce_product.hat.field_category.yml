@@ -1,0 +1,33 @@
+uuid: dd215392-1409-4906-afec-208418eeb2f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.hat
+    - field.storage.commerce_product.field_category
+    - taxonomy.vocabulary.clothes
+  content:
+    - 'taxonomy_term:clothes:ad99424a-41f2-4661-a2e2-cce4cd0874c8'
+id: commerce_product.hat.field_category
+field_name: field_category
+entity_type: commerce_product
+bundle: hat
+label: Category
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: ad99424a-41f2-4661-a2e2-cce4cd0874c8
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      clothes: clothes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

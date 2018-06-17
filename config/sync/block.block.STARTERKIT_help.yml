@@ -1,0 +1,22 @@
+uuid: 2c6cdf26-c72f-420d-bf27-d6da7c4bee88
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - STARTERKIT
+_core:
+  default_config_hash: YZKLEIGJJ3rKmiDcsbkxtkQO42bHEgxRZBegCxAQH9Y
+id: STARTERKIT_help
+theme: STARTERKIT
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 81db8f44-4851-4924-b264-996ad9957cb2
+name: Confianza
+mail: joealva1957@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /homepage
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

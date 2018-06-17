@@ -1,0 +1,11 @@
+uuid: 940e6b47-5378-499a-a883-70fef90b1bce
+langcode: en
+status: true
+dependencies: {  }
+id: t_shirt
+label: T-shirt
+description: 'A custom t-shirt'
+variationType: default
+injectVariationFields: true
+traits: {  }
+locked: false
